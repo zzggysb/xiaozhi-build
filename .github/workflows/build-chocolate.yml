@@ -20,6 +20,7 @@ jobs:
       - name: 拉取源码（含本地闹钟改动，来自已同步的 fork）
         shell: bash
         run: |
+          git config --global --add safe.directory "$PWD"
           git init -q .
           git remote add origin https://github.com/zzggysb/xiaozhi-esp32.git
           git fetch -q --depth 1 origin main
