@@ -41,7 +41,7 @@ jobs:
           CONFIG_SR_MN_CN_MULTINET6_QUANT=y
           CONFIG_CUSTOM_WAKE_WORD="qiao ke li"
           CONFIG_CUSTOM_WAKE_WORD_DISPLAY="巧克力"
-          CONFIG_CUSTOM_WAKE_WORD_THRESHOLD=20
+          CONFIG_CUSTOM_WAKE_WORD_THRESHOLD=10
           CONFIG_OTA_URL="http://192.168.3.250:8003/xiaozhi/ota/"
           EOF
           echo "---- 追加后的配置 ----"
